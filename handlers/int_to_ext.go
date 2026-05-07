@@ -33,7 +33,7 @@ func (h *IntToExtHandler) Handle(telegram *data.Telegram) ([]*data.OutTelegram, 
 	return out, nil
 }
 
-// не работает корректно, но это сейчас не нужно, т.к. цель отразить работу с настройками
+// Не работает корректно, но это сейчас не нужно, т.к. цель отразить работу с настройками
 // проигнорирован дефолтный адрес, а также делегированные
 func (h *IntToExtHandler) findData(clientID string, segments ...*data.Segment) (map[*data.Address][]*data.Address, error) {
 	result := make(map[*data.Address][]*data.Address, len(segments))
