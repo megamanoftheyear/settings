@@ -31,3 +31,7 @@ type OutTelegram struct {
 	Sender    string
 	ClientID  string
 }
+
+/*
+	Владимир Василёнок (АЭРОН) - настройки
+*/
